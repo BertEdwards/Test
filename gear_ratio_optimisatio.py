@@ -9,6 +9,7 @@ def main():
     value = 10
     result = multiply_by_five(value)
     print(f"{value} multiplied by 5 equals: {result}")
+    return result
 
 if __name__ == "__main__":
     main()
